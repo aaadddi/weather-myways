@@ -1,0 +1,22 @@
+.weather{
+    display: flex;
+    
+   
+    width: 70%;
+    height: 80vh;
+   
+}
+@media only screen and (max-width: 1080px) {
+  .weather{
+    /* margin: auto; */
+    width: 98%;
+    
+  }
+}
+@media only screen and (max-width: 720px) {
+    .weather{
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+    }
+  }

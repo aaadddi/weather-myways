@@ -1,0 +1,57 @@
+.temp_loc{
+    display:flex;
+    height: 40%;
+    padding: 20px;
+   /* border: 2px solid black; */
+    
+}
+.con{
+    display: flex;
+}
+.temp_desc{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin:0 1em;
+}
+#dark .temp_desc{
+    color: white;
+}
+.airicon{
+    color: rgb(112, 112, 249);
+}
+.sunicon{
+    color: orange;
+}
+.sundown{
+    color: rgb(255, 68, 0);
+}
+.locicon{
+    color: green;
+}
+.loc{
+    margin-top: auto;
+    flex: 1;
+}
+.ti{
+    margin-top: auto;
+}
+.ia{
+    display: flex;
+    margin: 4px;
+}
+.ia>h5{
+    margin-right: 10px;
+}
+#dark .ti{
+    color:white;
+}
+#dark .loc{
+    color:white;
+}
+@media only screen and (max-width:1080px){
+    .temp_desc{
+        margin: 0 0.5em;
+    }
+    
+}

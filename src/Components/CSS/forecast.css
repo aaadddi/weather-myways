@@ -1,0 +1,23 @@
+.forecast{
+    width: 40%;
+    width: 40%;
+    align-self: center  ;
+   
+    padding: 1em 1em;
+    ;
+
+}
+.tomorrow_value_text{
+    /* display: flex; */
+    margin-top: 10px ;
+}
+#dark .forecast{
+    color: white;
+}
+@media only screen and (max-width:720px){
+    .forecast{
+        width: 70%;
+        font-size: larger;
+        text-align: center;
+    }
+}

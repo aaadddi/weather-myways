@@ -1,0 +1,27 @@
+.today_details{
+    width: 70%;
+    align-self: center  ;
+   
+    padding: 1em 1em;
+    
+}
+.det{
+    padding: 2px 10px;
+    display: flex;
+    width: 100%;
+}
+#dark .today_details{
+    color:white
+}
+.detname{
+    flex: 1;
+}
+.iv{
+    display: flex;
+}
+@media only screen and (max-width:720px){
+    .today_details{
+        width: 90%;
+        font-size: larger;
+    }
+}

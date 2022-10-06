@@ -1,0 +1,26 @@
+.high_low{
+        
+    padding: 0.4    em 1em;
+    margin: 0 1em;
+    border-radius: 20px;
+    /* width: 30%; */
+   
+
+
+}
+.hl_desc{
+    text-align: center;
+    padding: 0.2em 0;
+}
+.high_low>h2{
+    margin: auto;
+    padding: .3em 1em 0 1em;
+}
+#dark .high_low{
+    background-color: black;
+    color: white;
+}
+#light .high_low{
+    background-color: rgb(239, 238, 238);
+    color: black;
+}
