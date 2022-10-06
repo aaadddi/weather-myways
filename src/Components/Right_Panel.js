@@ -13,6 +13,7 @@ export default function Right_Panel(props) {
         <Condition data={props.data}/>
         
       </div>
+    
     </div>
   )
 }

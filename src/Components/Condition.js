@@ -24,6 +24,7 @@ export default function Condition(props) {
           <Today_details data={data.atmosphere} units={data.units} wind={data.wind}/>
           <Forecast data={data.tomorrowforecast} units={data.units}/>
         </div>
+       
     </div>
  
   )
