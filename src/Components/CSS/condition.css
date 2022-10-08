@@ -28,9 +28,9 @@
 #dark .lower{
     background-color: #141414;
 }
-#light .lower{
+/* #light .lower{
     background-color: white;
-}
+} */
 #dark .date{
     color:white;
 }
