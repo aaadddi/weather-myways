@@ -19,7 +19,7 @@ export default function Condition(props) {
         <High_Low high={todayforecast.high} unit={data.units.temperature}/>
         <High_Low low={todayforecast.low} unit={data.units.temperature}/>
         </div>
-        <div className="lower">
+        <div className="lower" >
        
           <Today_details data={data.atmosphere} units={data.units} wind={data.wind}/>
           <Forecast data={data.tomorrowforecast} units={data.units}/>

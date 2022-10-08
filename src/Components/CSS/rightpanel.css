@@ -1,5 +1,5 @@
 .right_panel{
-    
+    min-height: max-content;
     border-radius: 10px;
     flex: 1;
     color: black;
