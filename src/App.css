@@ -12,7 +12,7 @@
  
 }
 .App-header {
- 
+ /* padding: 2em 0; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,6 +28,9 @@
     top:10px;
     right: 10px;
     
+  }
+  .App-header{
+    padding: 0;
   }
  
   
